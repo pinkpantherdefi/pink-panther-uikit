@@ -89,11 +89,21 @@ const PanelFooter: React.FC<Props> = ({
         <Flex>
           {socials.map((social, index) => {
             const Icon = Icons[social.icon];
-            const iconProps = { width: "24px", color: "textSubtle", style: { cursor: "pointer" } };
+            const iconProps = {
+              width: "24px",
+              color: "textSubtle",
+              style: { cursor: "pointer" },
+            };
             const mr = index < socials.length - 1 ? "8px" : 0;
-           
+
             return (
-              <Link external key={social.label} href={social.href} aria-label={social.label} mr={mr}>
+              <Link
+                external
+                key={social.label}
+                href={social.href}
+                aria-label={social.label}
+                mr={mr}
+              >
                 <Icon {...iconProps} />
               </Link>
             );
@@ -114,7 +124,10 @@ const PanelFooter: React.FC<Props> = ({
         <Dropdown
           position="top-right"
           target={
-            <Button variant="text" startIcon={<LanguageIcon color="textSubtle" width="24px" />}>
+            <Button
+              variant="text"
+              startIcon={<LanguageIcon color="textSubtle" width="24px" />}
+            >
               <Text color="textSubtle">{currentLang?.toUpperCase()}</Text>
             </Button>
           }
