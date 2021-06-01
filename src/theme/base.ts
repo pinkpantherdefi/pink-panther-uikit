@@ -21,10 +21,10 @@ const mediaQueries: MediaQueries = {
 
 export const shadows = {
   level1: "0px 2px 12px -8px rgba(25, 19, 38, 0.1), 0px 1px 1px rgba(25, 19, 38, 0.05)",
-  active: "0px 0px 0px 1px #3FC4BD, 0px 0px 4px 8px rgba(63, 196, 189, 0.4)",
+  active: "0px 0px 0px 1px #470CB0, 0px 0px 4px 8px rgba(71, 12, 176, 0.4)",
   success: "0px 0px 0px 1px #81c784, 0px 0px 0px 4px rgba(129, 199, 132, 0.2)",
   warning: "0px 0px 0px 1px #FFB74D, 0px 0px 0px 4px rgba(355, 183, 77, 0.2)",
-  focus: "0px 0px 0px 1px #8CE0DD, 0px 0px 0px 4px rgba(140, 224, 221, 0.6)",
+  focus: "0px 0px 0px 1px #EE047F, 0px 0px 0px 4px rgba(238, 4, 127, 0.6)",
   inset: "inset 0px 2px 2px -1px rgba(74, 74, 104, 0.1)",
 };
 
