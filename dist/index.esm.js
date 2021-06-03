@@ -340,8 +340,8 @@ var Icon$p = function (props) {
 };
 
 var Icon$q = function (props) {
-    return (React.createElement(Svg, __assign({ viewBox: "0 0 32 32" }, props),
-        React.createElement("image", { width: "32", height: "32", href: "/images/pink-panther/logo.png" })));
+    return (React.createElement(Svg, __assign({ viewBox: "0 0 45 45" }, props),
+        React.createElement("image", { width: "45", height: "45", href: "/images/pink-panther/logo.png" })));
 };
 
 var Icon$r = function (props) {
@@ -398,7 +398,7 @@ var Icon$u = function (props) {
 
 var Icon$v = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 90 90" }, props),
-        React.createElement("image", { width: 90, height: 90, href: "/images/pink-panther/2.png" })));
+        React.createElement("image", { width: 90, height: 90, href: "/images/pink-panther/base.png" })));
 };
 
 var Icon$w = function (props) {
@@ -1898,9 +1898,9 @@ var Icon$P = function (props) {
 };
 
 var Logo = function (_a) {
-    _a.isDark; var props = __rest(_a, ["isDark"]);
-    return (React.createElement(Svg, __assign({ viewBox: "0 0 205 26" }, props),
-        React.createElement("image", { width: "205", height: "26", href: "/images/pink-panther/logo_cara.png" })));
+    var isDark = _a.isDark, props = __rest(_a, ["isDark"]);
+    return (React.createElement(Svg, __assign({ viewBox: "0 0 205 50" }, props),
+        React.createElement("image", { width: "205", height: "50", href: isDark ? '/images/pink-panther/logo_cara.png' : '/images/pink-panther/logo_cara_2.png' })));
 };
 
 var Icon$Q = function (props) {
@@ -2847,7 +2847,7 @@ var baseColors = {
 var brandColors = {
     binance: "#F0B90B",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#E5E5E5", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", tertiary: "#EFF4F5", text: "#470CB0", textDisabled: "#BDC2C4", textSubtle: "#EE047F", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAf4f4", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", tertiary: "#EFF4F5", text: "#470CB0", textDisabled: "#BDC2C4", textSubtle: "#EE047F", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
 var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#343135", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", tertiary: "#353547", text: "#EAE2FC", textDisabled: "#666171", textSubtle: "#c9c4d4", borderColor: "#524B63", card: "#27262c", gradients: {
