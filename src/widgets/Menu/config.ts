@@ -113,12 +113,12 @@ export const socials = [
   {
     label: "Telegram",
     icon: "TelegramIcon",
-    href: "https://t.me/pinkpantherdefi",
+    href: "https://t.me/finance_pink",
   },
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/pinkpantherdefi",
+    href: "https://twitter.com/finance_pink",
   },
 ];
 

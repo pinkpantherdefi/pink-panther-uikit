@@ -1913,7 +1913,7 @@ var Icon$P = function (props) {
 var Logo = function (_a) {
     var isDark = _a.isDark, props = __rest(_a, ["isDark"]);
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 205 50" }, props),
-        React__default['default'].createElement("image", { width: "205", height: "50", href: isDark ? '/images/pink-panther/logo_cara.png' : '/images/pink-panther/logo_cara_2.png' })));
+        React__default['default'].createElement("image", { width: "205", height: "50", href: isDark ? '/images/pink-panther/logo_cara_2.png' : '/images/pink-panther/logo_cara.png' })));
 };
 
 var Icon$Q = function (props) {
@@ -2246,12 +2246,12 @@ var socials = [
     {
         label: "Telegram",
         icon: "TelegramIcon",
-        href: "https://t.me/pinkpantherdefi",
+        href: "https://t.me/finance_pink",
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/pinkpantherdefi",
+        href: "https://twitter.com/finance_pink",
     },
 ];
 var MENU_HEIGHT = 64;
